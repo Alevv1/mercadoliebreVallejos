@@ -1,0 +1,16 @@
+.burger-menu{
+    background-color: #03264C;
+    border-radius: 3px;
+    color: #ebebeb;
+    height: 30px;
+    width: 30px;
+
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    width: 20%;
+}

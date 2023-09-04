@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+        <h1><a href="/"><img src="./images/logo-mercado-liebre.svg" alt=""></a>
+            
+        </h1>
+            <form action="/resultados" method="get">
+        <input type="text" name="q" placeholder="Buscar productos, marcas">
+        <button class="buscar" type="submit">Buscar</button>
+        
+        
+        <div class="burger-menu">
+            <i class="fas fa-bars fa-2x"></i>
+            
+        </div>
+
+        <nav>
+            <lu>
+                <li><i class="fa-solid fa-virus-slash"></i>Tiendas Oficiales</li>
+                <li>Vender</li>
+                <li>Ayuda<br><br></li>
+                
+                <li > <a href="/views/register.html">Crear tu Cuenta</a> <i class="fa-regular fa-address-card"></i> </li>
+                <li> <a href="/views/login.html"> Ingresa </a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li>Mis Compras</li>
+
+            </lu>
+        </nav>
+</header>
+
+
+    
+    <section class="sectionRegister">
+        
+        <div class="container_form_reg">
+                <form class="registro">
+        
+                    <h2>Registro</h2>
+                    <br><br>
+                    <label for="nombreApellido"></label>
+                    <input type="text" id="nombre" name="nombreApellido" placeholder="Ingrese nombre y apellido">
+                    <br><br>
+                    <label for="userName"></label>
+                    <input type="text" id="nombre" name="userName" required placeholder="Ingrese nombre de usuario">
+                    <br><br>
+                    <h2>Fecha de nacimiento</h2>
+                    <br><br>
+                    <label for ="birthday"></label>
+                    <input type="date" id="birthday" name="birthday" required placeholder="fecha de nacimiento">
+                    <br><br>
+                    <label for="domicilio"></label>
+                    <input type="text" id="domicilio" name="domicilio" required placeholder="Domicilio">
+                    <br><br>
+                    <h2>Perfil de usuario </h2>
+                    <label>
+                    <input type="radio" name="tipoUsuario" value="comprador">
+                    Comprador
+                    </label>
+                    <label>
+                    <input type="radio" name="tipoUsuario" value="vendedor">
+                    Vendedor
+                    </label>
+                    <br><br><br><br>
+                    <h2>Tipos de intereses</h2>
+                    <br><br>
+                    
+                    <div class="intereses">
+                        <label>
+                        <input type="checkbox" name="intereses[]" value="electro">
+                        Electro
+                        </label>
+                        <label>
+                        <input type="checkbox" name="intereses[]" value="moda">
+                        Moda
+                        </label>
+                        <label>
+                        <input type="checkbox" name="intereses[]" value="hogar">
+                        Hogar
+                        </label>
+                        <label>
+                        <input type="checkbox" name="intereses[]" value="jugueteria">
+                        Juguetería
+                        </label>
+                        <label>
+                        <input type="checkbox" name="intereses[]" value="vida_sana">
+                        Vida Sana
+                        </label>   
+                    </div>
+                    <br><br>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required placeholder="Correo elctronico">
+                    <br><br>
+                    <label for="contrasena"></label>
+                    <input type="password" id="contrasena" name="contrasena" required placeholder="Ingrese contraseña">
+                    <br><br>
+                    <label for="confirmar-contrasena"></label>
+                    <input type="password" id="confirmar-contrasena" name="confirmar-contrasena" required placeholder="Confirmar contrasena">
+                    <br><br>
+                <button type="submit"><a href="index.html"></a>Registrarse</button>
+                <button type="reset">Restablecer</button>
+            </form>
+        </div>
+ 
+    </section>
+
+
+</body>
+</html>
