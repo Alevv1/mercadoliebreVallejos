@@ -38,18 +38,18 @@ main {
 
     text-align: center;
     padding: 20px;
-    display: flex; /* Usar Flexbox para alinear los .product en línea */
-    flex-wrap: wrap; /* Permitir que los .product se envuelvan en filas */
-    justify-content: center; /* Centrar los .product horizontalmente */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 .product-title-top,
 .product-title-bottom {
-    margin: 10px 0; /* Espaciado vertical */
+    margin: 10px 0; 
     border-top: 1px solid #ebebeb;
 }
 
 .product-title-bottom {
-    margin-top: auto; /* Empujar el título hacia abajo */
+    margin-top: auto; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -116,7 +116,7 @@ footer h3{
     right: 20px;
     top: -15px;
     left: 90px;
-   top: -50px;
+    top: -50px;
     
     }
 .product-desc-box {
@@ -148,6 +148,13 @@ h1{
     width: 15%;
 }
 
+.search-bar{
+    width: 20%;
+}
+
+.slogan{
+    margin-left: 20%;
+}
 nav a {
     color: #000000;
     text-decoration: none;
@@ -175,7 +182,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
-    width: 80%; /* Puedes ajustar este valor según tus necesidades */
+    width: 80%; 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -204,7 +211,7 @@ p {
 }
 .header-container {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center; 
   }
 /* Estilos para tablets (ancho mínimo de 361px) */
 @media (min-width: 361px) {
@@ -233,17 +240,17 @@ p {
   /* Estilos para desktops (ancho mínimo de 769px) */
 @media (min-width: 769px) {
 
-    /* Aplicar estilos a la lista y sus elementos */
+    
     .menu {
     list-style-type: none;
     display: flex;
-    justify-content: space-around; /* Espacia los elementos de manera uniforme */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    justify-content: space-around; 
+    padding: 0; 
   }
   
   .menu li {
-    margin: 0; /* Elimina el margen predeterminado de los elementos de la lista */
-    display: inline; /* Muestra los elementos en línea */
+    margin: 0; 
+    display: inline; 
   }
   
     .product{   
@@ -272,7 +279,6 @@ p {
 
     p {
         display: flex;
-        margin-left: 500px;
     }
   }
 
